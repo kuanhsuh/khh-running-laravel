@@ -2,7 +2,7 @@
     @include ('layouts._frontpage-header')
 
     <header class="container-fluid mx-auto mt-20">
-        <img src="https://via.placeholder.com/1200x350" alt="" class="w-full">
+        <img src="{{ asset('images/bg-cover.jpg') }}" alt="" class="w-full h-96 object-cover">
     </header>
 
     <section class="container mx-auto max-w-6xl mt-24 py-16 bg-gray-100 px-4 sm:px-16 rounded-md shadow">

@@ -38,9 +38,10 @@
         </div>
         <div class="flex h-12 justify-between">
             <div class="flex px-2 lg:px-0 justify-between w-full">
-                <div class="flex flex-shrink-0 items-center text-xl">
+                <a href="/" class="flex flex-shrink-0 items-center overflow-hidden">
+                    <img src="{{ asset('images/khh-logo.jpg') }}" alt="" class="w-full h-14 w-14 object-cover">
                     高雄馬拉松協會
-                </div>
+                </a>
                 <div class="hidden lg:ml-6 lg:flex lg:space-x-8">
                     <a href="/"
                         class="inline-flex items-center border-b-2 border-green-700 px-1 pt-1 text-sm font-medium text-gray-900">首頁</a>
