@@ -39,7 +39,7 @@
         <div class="flex h-12 justify-between">
             <div class="flex px-2 lg:px-0 justify-between w-full">
                 <a href="/" class="flex flex-shrink-0 items-center overflow-hidden">
-                    <img src="{{ asset('images/khh-logo.jpg') }}" alt="" class="w-full h-14 w-14 object-cover">
+                    <img src="{{ asset('images/khh-logo.png') }}" alt="" class="w-full h-14 w-14 object-cover">
                     高雄馬拉松協會
                 </a>
                 <div class="hidden lg:ml-6 lg:flex lg:space-x-8">

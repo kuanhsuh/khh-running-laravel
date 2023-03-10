@@ -15,13 +15,18 @@
     </head>
     <body class="font-sans text-gray-900 antialiased">
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
-            <div>
-                <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+            <div class="">
+                <a href="/" class="flex flex-col items-center">
+                    <img src="{{ asset('images/khh-logo.png') }}" alt="" class="w-full h-20 w-20 object-cover mb-4">
+                    會員系統
                 </a>
             </div>
 
             <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+            <a href="/" class="text-indigo-600 mb-6 inline-block">
+                &#x2190;回首頁
+            </a>
+
                 {{ $slot }}
             </div>
         </div>

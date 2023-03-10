@@ -80,20 +80,20 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="py-2">AAA</td>
-                        <td>2000-2004</td>
+                        <td class="py-2">蔡清華</td>
+                        <td>創會理事長</td>
                     </tr>
                     <tr>
-                        <td class="py-2">AAA</td>
-                        <td>2000-2004</td>
+                        <td class="py-2">蔡高勝</td>
+                        <td>第二-三任理事長</td>
                     </tr>
                     <tr>
-                        <td class="py-2">AAA</td>
-                        <td>2000-2004</td>
+                        <td class="py-2">蘇子聰</td>
+                        <td>第四任理事長</td>
                     </tr>
                     <tr>
-                        <td class="py-2">AAA</td>
-                        <td>2000-2004</td>
+                        <td class="py-2">蔡聖佶</td>
+                        <td>現任理事長</td>
                     </tr>
 
                 </tbody>
