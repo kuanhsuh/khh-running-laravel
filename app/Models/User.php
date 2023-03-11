@@ -97,7 +97,6 @@ class User extends Authenticatable
         'gender' => 'required',
         'birthdate' => 'required',
         'cellphone' => 'required',
-        'housephone' => 'required',
         'emergency_name' => 'required',
         'emergency_phone' => 'required',
         'emergency_relationship' => 'required',
