@@ -10,7 +10,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-red-400 shadow overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-white ">
-                    請填寫您的個人資料，以協助總務報名您所感興趣的賽事。<a href="{{route('profile.edit')}}" class="text-yellow-200">連結</a>
+                    請填寫您的個人資料，以協會團報賽事為主。<a href="{{route('profile.edit')}}" class="text-yellow-200">連結</a>
                 </div>
             </div>
         </div>
