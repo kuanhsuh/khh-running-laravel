@@ -48,7 +48,7 @@
         </div>
 
         <div>
-            <x-input-label for="nation" value="國籍" />
+            <x-input-label for="nation" value="國籍(ex. 台灣)" />
             <x-text-input name="nation" type="text" class="mt-1 block w-full" :value="old('nation', $user->nation)" required autofocus autocomplete="nation" />
             <x-input-error class="mt-2" :messages="$errors->get('nation')" />
         </div>
