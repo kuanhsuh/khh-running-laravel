@@ -1,9 +1,11 @@
 
 echo "Deployment started ..."
 
+ssh root@157.230.47.27
+cd /var/www/khh-running/laravel
 #!/bin/sh
 # activate maintenance mode
-php artisan down
+#php artisan down
 # update source code
 git pull
 # update PHP dependencies
@@ -18,12 +20,12 @@ git pull
 #php artisan optimize
 
 # Compile npm assets
-npm run build
+#npm run build
 
 # update database
-php artisan migrate
+#php artisan migrate
 # --force  Required to run when in production.
 # stop maintenance mode
-php artisan up
+#php artisan up
 
 echo "Deployment finished!"

@@ -34,9 +34,6 @@ class TransactionController extends Controller
             'confirmed' => false,
         ]);
         Mail::to('kuanhsuh@gmail.com')->send(new \App\Mail\NewTransactionMail());
-
-
-        dd("Email is Sent.");
         return redirect()->route('dashboard')->with('success', '你儲值成功，請等待管理者確認');
     }
 

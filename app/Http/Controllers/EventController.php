@@ -70,6 +70,7 @@ class EventController extends Controller
 
     public function register(Event $event, $price_package_id)
     {
+        $user = Auth()->user();
         $price_package = PricePackage::findOrFail($price_package_id);
         if($user->credit > $price_package->price) {
             $event->register(auth()->user(), $price_package);
