@@ -40,6 +40,18 @@
                         @include('layouts.error')
 
                         </form>
+                        <div class="shadow-inner rounded-md p-4 bg-slate-50">
+                            <h3 class="text-xl mb-4">匯款資料</h3>
+                            <p class="mb-4">
+                                高雄市馬拉松協進會<br/>
+                                兆豐銀行<br/>
+                                代號 017<br/>
+                                帳號 01309050903
+                            </p>
+                            <p class="text-sm">
+                                請在匯款後，立即通知財務長。當財務長確認匯款後，系統會自動更新點數顯示。感謝您的合作。
+                            </p>
+                        </div>
                         <script>
                             function getDate(){
                                 var today = new Date();
