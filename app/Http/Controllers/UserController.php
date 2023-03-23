@@ -25,4 +25,32 @@ class UserController extends Controller
             return redirect('/dashboard');
         }
     }
+
+    public function edit()
+    {
+        $user = auth()->user();
+        return view('users.edit', compact('user'));
+    }
+
+    public function update(User $user)
+    {
+        request()->validate(User::$createRules);
+        $user->update([
+            'nation' => request('nation'),
+            'id_number' => request('id_number'),
+            'area_code' => request('area_code'),
+            'address' => request('address'),
+            'gender' => request('gender'),
+            'birthdate' => request('birthdate'),
+            'cellphone' => request('cellphone'),
+            'housephone' => request('housephone'),
+            'emergency_name' => request('emergency_name'),
+            'emergency_phone' => request('emergency_phone'),
+            'emergency_relationship' => request('emergency_relationship'),
+            'recommendation' => request('recommendation'),
+            'shirt_size' => request('shirt_size'),
+            'pickup_location' => request('pickup_location'),
+        ]);
+        return redirect()->route('users.show', ['user' => $user->id])->with('success', '個人資料已更新');
+    }
 }

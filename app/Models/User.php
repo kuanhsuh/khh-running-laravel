@@ -35,7 +35,8 @@ class User extends Authenticatable
         'emergency_phone',
         'emergency_relationship',
         'recommendation',
-        'shirt_size'
+        'shirt_size',
+        'pickup_location'
     ];
 
     /**

@@ -30,7 +30,7 @@ class EventController extends Controller
     {
         $validatedData = request()->validate(Event::$createRules);
         $event = Event::create($validatedData);
-        return redirect()->route('events.index')->with('success', '賽事已建立');;
+        return redirect()->route('events.index')->with('success', '賽事已建立');
     }
 
     public function show(Event $event)

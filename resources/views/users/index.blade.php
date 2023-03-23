@@ -24,7 +24,11 @@
                                         <td class="py-4">{{ $user->name }}
                                             <span class="inline-flex items-center rounded-full bg-purple-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 @if ($user->hasRole('Admin')) bg-purple-100  @else bg-green-100  @endrole">@if ($user->hasRole('Admin')) 管理者@else 一般會員 @endrole</span>
                                         </td>
-                                        <td><a class="text-blue-500" href="{{ route('users.show', ['user' => $user->id]) }}">連結</a></td>
+                                        <td><a class="text-blue-500" href="{{ route('users.show', ['user' => $user->id]) }}">連結</a> /
+                                        @role('Admin')
+                                            <a class="text-blue-500" href="{{ route('users.edit', ['user' => $user->id]) }}">編輯</a>
+                                        @endrole
+                                        </td>
                                     </tr>
                                 @endforeach
                             </tbody>

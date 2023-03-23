@@ -36,10 +36,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/events', [EventController::class, 'index'])->name('events.index');
     Route::get('/events/create', [EventController::class, 'create'])->name('events.create');
     Route::post('/events', [EventController::class, 'store'])->name('events.store');
-    Route::get('/events/{event}/edit', [EventController::class, 'edit'])->name('events.edit');;
-    Route::get('/events/{event}', [EventController::class, 'show'])->name('events.show');;
-    Route::put('/events/{event}', [EventController::class, 'update'])->name('events.update');;
-    Route::delete('/events/{event}', [EventController::class, 'destroy'])->name('events.destroy');;
+    Route::get('/events/{event}/edit', [EventController::class, 'edit'])->name('events.edit');
+    Route::get('/events/{event}', [EventController::class, 'show'])->name('events.show');
+    Route::put('/events/{event}', [EventController::class, 'update'])->name('events.update');
+    Route::delete('/events/{event}', [EventController::class, 'destroy'])->name('events.destroy');
 
     Route::get('/events/{event}/register/{price_package}', [EventController::class, 'register'])->name('events.register');
     Route::get('/events/{event}/unregister/{price_package}', [EventController::class, 'unregister'])->name('events.unregister');
@@ -53,11 +53,12 @@ Route::middleware('auth')->group(function () {
     // Price Packages Route
     Route::get('/events/{event}/pricepackages/create', [PricePackageController::class, 'create'])->name('pricepackage.create');
     Route::post('/events/{event}/pricepackages', [PricePackageController::class, 'store'])->name('pricepackage.store');
-    Route::delete('/events/{event}/pricepackages/{price_package}', [PricePackageController::class, 'destroy'])->name('pricepackages.destroy');;
+    Route::delete('/events/{event}/pricepackages/{price_package}', [PricePackageController::class, 'destroy'])->name('pricepackages.destroy');
 
-
-    Route::get('/users/{user}', [UserController::class, 'show'])->name('users.show');;
-    Route::get('/users', [UserController::class, 'index'])->name('users.index');;
+    Route::get('/users', [UserController::class, 'index'])->name('users.index');
+    Route::get('/users/{user}', [UserController::class, 'show'])->name('users.show');
+    Route::get('/users/{user}/edit', [UserController::class, 'edit'])->name('users.edit');
+    Route::put('/users/{user}', [UserController::class, 'update'])->name('users.update');
 });
 
 require __DIR__.'/auth.php';

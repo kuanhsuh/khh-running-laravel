@@ -65,6 +65,10 @@
                             <td class="whitespace-nowrap py-4 pl-6 pr-3 text-sm font-medium text-gray-900 text-center">比賽衣服尺寸</td>
                             <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 text-center">{{ $register_user->shirt_size }}</td>
                         </tr>
+                        <tr>
+                            <td class="whitespace-nowrap py-4 pl-6 pr-3 text-sm font-medium text-gray-900 text-center">取貨分組</td>
+                            <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 text-center">{{ $register_user->pickup_location }}</td>
+                        </tr>
                         </tbody>
                     </table>
                 </div>
