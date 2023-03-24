@@ -8,10 +8,12 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
 
-    public function index()
+    public function index(Request $request)
     {
-        $users = User::paginate(10);
-        return view('users.index', compact('users'));
+        $orderBy = $request->get('orderBy', 'area_code');
+        $orderDirection = $request->get('orderDirection', 'asc');
+        $users = User::orderBy($orderBy, $orderDirection)->paginate(10);
+        return view('users.index', compact('users', 'orderBy', 'orderDirection'));
     }
 
     public function show($id)
