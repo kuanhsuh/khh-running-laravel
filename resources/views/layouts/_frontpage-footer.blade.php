@@ -33,7 +33,7 @@
                             </li>
 
                             <li>
-                                <a href="/join" class="text-base text-gray-500 hover:text-gray-900">加入</a>
+                                <a href="https://www.facebook.com/kaohsiunghmarathonfederation" class="text-base text-gray-500 hover:text-gray-900">加入</a>
                             </li>
 
                         </ul>
@@ -43,17 +43,13 @@
                     <h3 class="text-base font-medium text-gray-900">聯絡我們</h3>
                     <ul role="list" class="mt-4 space-y-4">
                         <li>
-                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">高雄市鼓山區明華路253號10樓
+                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">82648高雄市梓官區大舍南路92號
                             </a>
                         </li>
 
                         <li>
-                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">T: 09XX-01X-185</a>
-                        </li>
-
-                        <li>
                             <a href="#" class="text-base text-gray-500 hover:text-gray-900">E:
-                                axxxx@gmail.com</a>
+                                kuanhsuh@gmail.com</a>
                         </li>
                     </ul>
                 </div>

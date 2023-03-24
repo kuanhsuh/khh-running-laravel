@@ -1,8 +1,9 @@
 
     @include ('layouts._frontpage-header')
 
-    <header class="container mx-auto max-w-6xl">
-        <img src="https://via.placeholder.com/1200x650" alt="" class="w-full">
+    <header class="container mx-auto max-w-6xl mt-20">
+        <img src="{{ asset('images/bg-cover.jpg') }}" alt="" class="w-full object-cover">
+
     </header>
 
     <section class="container mx-auto max-w-6xl py-16">
