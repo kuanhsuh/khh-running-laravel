@@ -160,10 +160,21 @@
             <x-text-input name="shirt_size" type="text" class="mt-1 block w-full" :value="old('shirt_size', $user->shirt_size)" autofocus autocomplete="shirt_size" />
             <x-input-error class="mt-2" :messages="$errors->get('shirt_size')" />
         </div>
+        <div >
+            <label for="pickup_location">聯絡處</label>
+            <select name="pickup_location" id="pickup_location" class="mt-1 block w-full shadow-sm border-gray-300 rounded-md">
+                <option value="岡山聯絡處" {{ $user->pickup_location == '岡山聯絡處' ? 'selected' : '' }}>(1)岡山聯絡處(岡山以北):藍添信理事</option>
+                <option value="梓官聯絡處" {{ $user->pickup_location == '梓官聯絡處' ? 'selected' : '' }}>(2)梓官聯絡處(向陽加油站):蔡聖佶理事長</option>
+                <option value="美術館聯絡處" {{ $user->pickup_location == '美術館聯絡處' ? 'selected' : '' }}>(3)美術館聯絡處(森菓宅食):許寬柏理事</option>
+                <option value="鳯山聯絡處" {{ $user->pickup_location == '鳯山聯絡處' ? 'selected' : '' }}>(4)鳯山聯絡處:邱禹文總幹事</option>
+                <option value="南高雄聯絡處" {{ $user->pickup_location == '南高雄聯絡處' ? 'selected' : '' }}>(5)南高雄聯絡處:黃木昇理事</option>
+            </select>
+            <x-input-error class="mt-2" :messages="$errors->get('pickup_location')" /></div>
+        </div>
 
 
 
-        <div class="flex items-center gap-4">
+        <div class="mt-4 flex items-center gap-4">
             <x-primary-button>存檔</x-primary-button>
 
             @if (session('status') === 'profile-updated')

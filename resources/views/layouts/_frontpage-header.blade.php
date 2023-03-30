@@ -95,7 +95,7 @@
     </div>
 
     <!-- Mobile menu, show/hide based on menu state. -->
-    <div class="lg:hidden border-b border-gray-200" id="mobile-menu">
+    <div class="hidden md:hidden border-b border-gray-200" id="mobile-menu">
         <div class="space-y-1 pt-2 pb-3">
             <a href="/"
                 class="block border-l-4 border-indigo-700 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700">首頁</a>

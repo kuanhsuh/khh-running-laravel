@@ -50,6 +50,7 @@ class ProfileController extends Controller
             'emergency_relationship' => request('emergency_relationship'),
             'recommendation' => request('recommendation'),
             'shirt_size' => request('shirt_size'),
+            'pickup_location' => request('pickup_location'),
         ]);
 
         return Redirect::route('dashboard')->with('success', '個人資料已更新');
