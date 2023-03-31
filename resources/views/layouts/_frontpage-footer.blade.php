@@ -62,7 +62,7 @@
     </div>
 </footer>
 
-<script>
+{{-- <script>
     var menuButton = document.querySelector("#menuButton");
     var mobileMenu = document.querySelector("#mobile-menu");
 
@@ -70,4 +70,4 @@
         mobileMenu.classList.toggle('hidden')
     })
 
-</script>
+</script> --}}

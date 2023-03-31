@@ -24,7 +24,7 @@
     </head>
     <body >
 <!-- Navbar -->
-<nav class="bg-white shadow fixed w-full top-0">
+<nav class="bg-white shadow fixed w-full top-0" x-data="{ mobileMenu: true }">
     <div class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
         <div class="flex justify-end mt-2">
             <a href="https://www.facebook.com/kaohsiunghmarathonfederation" class="text-gray-400 hover:text-gray-500">
@@ -66,7 +66,8 @@
 
             <div class="flex items-center lg:hidden">
                 <!-- Mobile menu button -->
-                <button id="menuButton" type="button"
+                <button type="button"
+                    @click="mobileMenu = !mobileMenu"
                     class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                     aria-controls="mobile-menu" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
@@ -95,7 +96,7 @@
     </div>
 
     <!-- Mobile menu, show/hide based on menu state. -->
-    <div class="hidden md:hidden border-b border-gray-200" id="mobile-menu">
+    <div class="md:hidden border-b border-gray-200":class="{ 'hidden': mobileMenu }">
         <div class="space-y-1 pt-2 pb-3">
             <a href="/"
                 class="block border-l-4 border-indigo-700 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700">首頁</a>
