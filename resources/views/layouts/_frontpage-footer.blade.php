@@ -61,13 +61,3 @@
         </div>
     </div>
 </footer>
-
-{{-- <script>
-    var menuButton = document.querySelector("#menuButton");
-    var mobileMenu = document.querySelector("#mobile-menu");
-
-    menuButton.addEventListener('click', function () {
-        mobileMenu.classList.toggle('hidden')
-    })
-
-</script> --}}
