@@ -69,7 +69,14 @@
     </section>
     <section class="container px-4 mx-auto max-w-4xl py-16">
         <h2 class="text-2xl tracking-wide text-indigo-700 mb-8">歷年理事長/History</h2>
+        <div class="flex flex-wrap">
+            <div class="p-2 w-1/2">
+            <img src="{{ asset('images/理事長-蔡清華.jpg') }}" alt="" class="w-full mb-4  shadow rounded-lg border border-gray-200 "></div>
+            <div class="p-2 w-1/2"><img src="{{ asset('images/理事長-蔡高勝.jpg') }}" alt="" class="w-full mb-4  shadow rounded-lg border border-gray-200 "></div>
+            <div class="p-2 w-1/2"><img src="{{ asset('images/理事長-蘇子聰.jpg') }}" alt="" class="w-full mb-4  shadow rounded-lg border border-gray-200 "></div>
+            <div class="p-2 w-1/2"><img src="{{ asset('images/理事長-蔡聖佶.jpg') }}" alt="" class="w-full mb-4  shadow rounded-lg border border-gray-200 "></div>
 
+        </div>
         <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 rounded-md">
             <table class="w-full text-center border-collapse rounded-sm">
                 <thead class="bg-indigo-100">
