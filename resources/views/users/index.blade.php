@@ -36,9 +36,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="pagination mt-4">
-                        {{ $users->links() }}
-                    </div>
+
                 </div>
             </div>
         </div>
