@@ -28,12 +28,44 @@
 
     </section>
     <section class="container px-4 mx-auto max-w-4xl py-16">
-        <h2 class="text-2xl tracking-wide text-indigo-700 mb-8">理監事介紹/Board</h2>
+    <h2 class="text-2xl tracking-wide text-indigo-700 mb-8">理監事介紹/Board</h2>
 
         <div class="flex flex-wrap mt-4 -mx-4">
             <div class="w-full sm:w-3/12 px-4 mt-8">
                 <img src="{{ asset('images/khh-蔡聖佶.jpg') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
                 <h4 class="text-xl text-gray-600 text-center">蔡聖佶</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-王裕召.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">王裕召</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-李宇倉.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">李宇倉</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-周志鴻.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">周志鴻</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-周婉玲.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">周婉玲</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-林清煌.jpg') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">林清煌</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-邱禹文.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">邱禹文</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-高正治.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">高正治</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-莊世鴻.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">莊世鴻</h4>
             </div>
             <div class="w-full sm:w-3/12 px-4 mt-8">
                 <img src="{{ asset('images/khh-許寬柏.jpg') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
@@ -42,6 +74,18 @@
             <div class="w-full sm:w-3/12 px-4 mt-8">
                 <img src="{{ asset('images/khh-陳西坤.jpg') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
                 <h4 class="text-xl text-gray-600 text-center">陳西坤</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-陳昭維.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">陳昭維</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-陳美蓉.jpg') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">陳美蓉</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-陳理維.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">陳理維</h4>
             </div>
             <div class="w-full sm:w-3/12 px-4 mt-8">
                 <img src="{{ asset('images/khh-程至謙.jpg') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
@@ -60,10 +104,21 @@
                 <h4 class="text-xl text-gray-600 text-center">黃冠勳</h4>
             </div>
             <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-楊征達.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">楊征達</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-鄭百川.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">鄭百川</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
+                <img src="{{ asset('images/khh-藍添信.png') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
+                <h4 class="text-xl text-gray-600 text-center">藍添信</h4>
+            </div>
+            <div class="w-full sm:w-3/12 px-4 mt-8">
                 <img src="{{ asset('images/khh-羅大惟.jpg') }}" alt="" class="w-full mb-4  shadow rounded-full border border-gray-200 h-48 w-48">
                 <h4 class="text-xl text-gray-600 text-center">羅大惟</h4>
             </div>
-
 
         </div>
     </section>

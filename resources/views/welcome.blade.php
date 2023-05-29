@@ -24,6 +24,24 @@
             </div>
         </div>
     </section>
+    <section class="container mx-auto max-w-6xl py-16">
+        <h2 class="text-2xl tracking-wide text-green-700 px-4">視障跑步練習</h2>
+
+        <div class="flex flex-wrap mt-8">
+            <div class="w-full sm:w-6/12 px-4 mb-8 sm:mb-0">
+                <img src="{{ asset('images/eye-practive-1.jpg') }}" alt="" class="w-full mb-4">
+            </div>
+            <div class="w-full sm:w-6/12 px-4 mb-8 sm:mb-0">
+                <img src="{{ asset('images/eye-practive-2.jpg') }}" alt="" class="w-full mb-4">
+            </div>
+            <div class="w-full sm:w-6/12 px-4 mb-8 sm:mb-0">
+                <img src="{{ asset('images/eye-practive-3.jpg') }}" alt="" class="w-full mb-4">
+            </div>
+            <div class="w-full sm:w-6/12 px-4 mb-8 sm:mb-0">
+                <img src="{{ asset('images/eye-practive-4.jpg') }}" alt="" class="w-full mb-4">
+            </div>
+        </div>
+    </section>
 
     <section class=" py-16 bg-neutral-100">
         <div class="container mx-auto max-w-6xl">

@@ -12,7 +12,7 @@ class UserController extends Controller
     {
         $orderBy = $request->get('orderBy', 'area_code');
         $orderDirection = $request->get('orderDirection', 'asc');
-        $users = User::orderBy($orderBy, $orderDirection)->paginate(10);
+        $users = User::orderBy($orderBy, $orderDirection);
         return view('users.index', compact('users', 'orderBy', 'orderDirection'));
     }
 
